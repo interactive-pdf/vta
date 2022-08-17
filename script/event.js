@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    $("body").css({"height":screen.height/2});
+    // $("#magazine").css({"margin-top":screen.height/2});
     $('#magazine').turn({
         display: 'single',
         acceleration: true,
