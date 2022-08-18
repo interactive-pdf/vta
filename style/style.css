@@ -26,6 +26,12 @@ body{
     padding-top: 37rem;
 } */
 
+@media only screen and (max-device-width: 299px) {
+    .content {
+        zoom: 20%
+    }
+}
+
 @media only screen and (min-device-width: 300px) and (max-device-width: 320px) {
     .content {
         zoom: 25%
@@ -158,8 +164,44 @@ body{
     }
 }
 
-@media only screen and (min-device-width: 1201px) and (max-device-width: 1300px)  {
+@media only screen and (min-width: 1201px) and (max-width: 1300px)  {
     .content {
-        zoom: 96%
+        zoom: 94%
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1400px)  {
+    .content {
+        zoom: 95%
+    }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1500px)  {
+    .content {
+        zoom: 95%
+    }
+}
+
+@media only screen and (min-height: 800px) {
+    @media only screen and (min-width: 1401px)  {
+        .content {
+            zoom: 110%
+        }
+    }
+}
+
+@media only screen and (min-height: 900px) {
+    @media only screen and (min-width: 1501px)  {
+        .content {
+            zoom: 120%
+        }
+    }
+}
+
+@media only screen and (min-height: 1000px) {
+    @media only screen and (min-width: 2000px)  {
+        .content {
+            zoom: 150%
+        }
     }
 }

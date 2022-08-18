@@ -28,6 +28,7 @@ $(document).ready(function() {
     $("#previous").on("click", function () {
         $('#magazine').turn('previous')
     })
+
 });
 
 $(document).bind('keydown', function(e){
