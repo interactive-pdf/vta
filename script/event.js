@@ -29,6 +29,14 @@ $(document).ready(function() {
         $('#magazine').turn('previous')
     })
 
+    $("#page6").click(function() {
+        $('#magazine').turn("page", 6)
+    });
+
+    $("#page9").click(function() {
+        $('#magazine').turn("page", 9)
+    });
+
 });
 
 $(document).bind('keydown', function(e){
