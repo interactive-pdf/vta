@@ -14,6 +14,7 @@
 <body>
 	<div class="grid justify-items-center items-center w-fit min-w-full h-full relative content">
 		<div class="relative">
+			<!-- BUTTON NAVIGASI -->
 			<div class="flex px-10 py-2 justify-between w-full absolute max-w-[1240px] z-10 bottom-2">
 				<button id="previous" class="flex flex-row item-center px-[35px] py-[10px] gap-[20px] bg-[#0A323A] rounded-full shadow-[0px 0px 10px rgba(0, 0, 0, 0.5)]">
 					<svg width="41" height="32" viewBox="0 0 51 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,6 +22,33 @@
 					<path d="M21.1499 2.99997L3.00015 21.0717L21.1499 39.1465" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 					</svg>
 				</button>
+				<div class="flex gap-3">
+					<svg id="home-icon" class="cursor-pointer" width="49" height="50" viewBox="0 0 68 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="34" cy="34.856" r="34" fill="#00323A"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M34.1219 13.9355L52.7008 30.1453V51.8793H15.2998V30.14L34.1219 13.9355ZM17.9406 31.3511V49.2385H50.06V31.3459L34.1104 17.4301L17.9406 31.3511Z" fill="white"/>
+					</svg>
+					<svg id="clear-icon" class="cursor-pointer" width="49" height="50" viewBox="0 0 68 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="34" cy="34.856" r="34" fill="#00323A"/>
+						<path d="M36.9082 18.5652C35.7672 18.3355 34.5867 18.215 33.3781 18.215C23.5544 18.215 15.5908 26.1786 15.5908 36.0022C15.5908 45.8259 23.5544 53.7895 33.3781 53.7895C43.2017 53.7895 51.1654 45.8259 51.1654 36.0022C51.1654 34.9701 51.0774 33.9584 50.9087 32.9744" stroke="white" stroke-width="2.5"/>
+						<path d="M43.524 33.1412C43.7801 34.0509 43.917 35.0106 43.917 36.0022C43.917 41.8222 39.199 46.5403 33.3789 46.5403C27.5589 46.5403 22.8408 41.8222 22.8408 36.0022C22.8408 30.1822 27.5589 25.4641 33.3789 25.4641C34.1745 25.4641 34.9495 25.5523 35.6946 25.7194" stroke="white" stroke-width="2.5"/>
+						<path d="M37.1483 36.0022C37.1483 38.0848 35.46 39.7731 33.3773 39.7731C31.2947 39.7731 29.6064 38.0848 29.6064 36.0022C29.6064 33.9196 31.2947 32.2313 33.3773 32.2313C34.4444 32.2313 35.4079 32.6745 36.0938 33.3868C36.7468 34.0648 37.1483 34.9866 37.1483 36.0022Z" fill="white"/>
+						<path d="M41.2551 20.9011L41.0536 28.4657L48.7731 28.798L56.2225 21.6489H48.2339V13.7732L41.2551 20.9011Z" fill="white"/>
+						<path d="M36.0938 33.3868C35.4079 32.6745 34.4444 32.2313 33.3773 32.2313C31.2947 32.2313 29.6064 33.9196 29.6064 36.0022C29.6064 38.0848 31.2947 39.7731 33.3773 39.7731C35.46 39.7731 37.1483 38.0848 37.1483 36.0022C37.1483 34.9866 36.7468 34.0648 36.0938 33.3868ZM36.0938 33.3868L41.0536 28.4657M41.0536 28.4657L41.2551 20.9011L48.2339 13.7732V21.6489H56.2225L48.7731 28.798L41.0536 28.4657Z" stroke="white" stroke-width="2.5"/>
+					</svg>
+					<svg id="yammer-icon" class="cursor-pointer" width="49" height="50" viewBox="0 0 68 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="34" cy="34.856" r="34" fill="#00323A"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M33.9996 17.3465C27.6042 17.3465 22.4197 22.5309 22.4197 28.9263C22.4197 33.0974 24.6241 36.755 27.9385 38.7954L28.6523 39.2349V43.0873H39.2082V39.3068L39.9379 38.8699C43.3204 36.845 45.5794 33.1487 45.5794 28.9263C45.5794 22.5309 40.3949 17.3465 33.9996 17.3465ZM39.2082 46.0881H28.6523V52.3656H39.2082V46.0881ZM25.6516 40.882C21.886 38.248 19.4189 33.8758 19.4189 28.9263C19.4189 20.8737 25.9469 14.3457 33.9996 14.3457C42.0522 14.3457 48.5802 20.8737 48.5802 28.9263C48.5802 33.9363 46.0525 38.3546 42.2089 40.9777V55.3663H25.6516V40.882Z" fill="white"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M35.2682 22.4162C31.6056 22.4162 28.6365 25.3853 28.6365 29.0478H25.6357C25.6357 23.728 29.9483 19.4154 35.2682 19.4154V22.4162Z" fill="white"/>
+					</svg>
+					<a href="mailto:Steve.Reynolds@optus.com.au">
+						<svg id="mail-icon" class="cursor-pointer" width="49" height="50" viewBox="0 0 68 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="34" cy="34.856" r="34" fill="#00323A"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M34.0005 17.3465C24.3303 17.3465 16.491 25.1858 16.491 34.856C16.491 44.5263 24.3303 52.3656 34.0005 52.3656C43.6708 52.3656 51.5101 44.5263 51.5101 34.856C51.5101 25.1858 43.6708 17.3465 34.0005 17.3465ZM13.4902 34.856C13.4902 23.5285 22.673 14.3457 34.0005 14.3457C45.3281 14.3457 54.5109 23.5285 54.5109 34.856C54.5109 46.1835 45.3281 55.3663 34.0005 55.3663C22.673 55.3663 13.4902 46.1835 13.4902 34.856Z" fill="white"/>
+							<path d="M30.0738 25.9607L29.8193 23.0889C36.6131 21.9616 41.9975 24.4947 41.6639 30.3538C41.3942 35.0916 36.3153 36.5537 33.8803 36.6974L33.7587 39.5796H31.2294V34.2203C31.5834 34.1814 32.6594 34.1864 34.1089 34.0672C36.2037 33.895 39.7376 31.7022 38.1077 28.1782C36.7855 25.3196 32.1217 25.5487 30.0738 25.9607Z" fill="white"/>
+							<circle cx="32.5551" cy="45.1202" r="2.23865" fill="white"/>
+						</svg>
+					</a>
+				</div>
 				<button id="next" class="flex flex-row item-center px-[35px] py-[10px] gap-[20px] bg-[#0A323A] rounded-full shadow-[0px 0px 10px rgba(0, 0, 0, 0.5)]">
 					<svg width="41" height="32" viewBox="0 0 51 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M47.9994 21.0733L3 21.0733" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -29,6 +57,7 @@
 				</button>
 			</div>	
 			
+			<!-- NAVIGASI COVER -->
 			<div id="navigate-cover" class="flex justify-between w-full absolute max-w-[1240px]">
 				<div class="w-full">
 					<div class="mt-[28rem]">
@@ -53,6 +82,7 @@
 				</div>
 			</div>
 
+			<!-- NAVIGASI COVER GO TO HOME -->
 			<div id="navigate-cover-home" class="flex justify-between w-full absolute max-w-[1240px]">
 				<div class="w-full">
 					<div class="mt-[25.7rem]">
@@ -63,103 +93,149 @@
                 </div>
             </div>
 
+			<!-- INDEX CLEAR -->
 			<div id="index-clear" class="flex justify-between w-full absolute max-w-[1240px]">
 				<div class="w-full">
-					<div class="mt-32">
+					<div class="mt-[10rem]">
 						<div class="grid grid-cols-2">
 							<div class="flex-col grid">
-								<button id="page5" class="ml-[5rem] mt-[3.2rem] w-[190px] h-[20px]"></button>
-								<button id="page6" class="ml-[5rem] mt-[3.2rem] w-[245px] h-[20px]"></button>
-								<button id="page9" class="ml-[5rem] mt-[3.2rem] w-[190px] h-[20px]"></button>
-								<button id="page11" class="ml-[5rem] mt-[2rem] w-[165px] h-[20px]"></button>
-								<button id="page14" class="ml-[5rem] mt-[2rem] w-[200px] h-[20px]"></button>
-								<button id="page16" class="ml-[5rem] mt-[3.2rem] w-[215px] h-[20px]"></button>
+								<button id="page6" class="ml-[4rem] mt-[1.8rem] w-[220px] h-[25px]"></button>
+								<button id="page7" class="ml-[4rem] mt-[2.2rem] w-[145px] h-[25px]"></button>
+								<button id="page8" class="ml-[4rem] mt-[0.2rem] w-[190px] h-[25px]"></button>
+								<div class="ml-[4rem] mt-[-1.8rem] w-[285px] h-[25px]"></div>
+								<button id="page9" class="ml-[4rem] mt-[0rem] w-[285px] h-[25px]"></button>
+								<button id="page10" class="ml-[4rem] mb-[-1.6rem] w-[300px] h-[25px]"></button>
 							</div>
 							<div class="flex-col grid">
-								<button id="page17" class="mt-4 w-[164px] h-[20px]"></button>
-								<button id="page19" class="mt-12 w-[195px] h-[20px]"></button>
-								<button id="page21" class="mt-[3.2rem] w-[130px] h-[20px]"></button>
-								<button id="page22" class="mt-12 w-[150px] h-[20px]"></button>
-								<button id="page23" class="mt-[3.4rem] w-[190px] h-[20px]"></button>
-								<button id="page24" class="mt-12 w-[225px] h-[20px]"></button>
+								<button id="page12" class="mt-[5px] w-[215px] h-[20px] ml-[2rem]"></button>
+								<button id="page13" class="mt-[2.3rem] w-[215px] h-[20px] ml-[2rem]"></button>
+								<button id="page14" class="mt-[2.6rem] w-[235px] h-[20px] ml-[2rem]"></button>
+								<button id="page15" class="mt-[3.9rem] w-[250px] h-[20px] ml-[2rem]"></button>
+								<button id="page16" class="mt-[2.3rem] w-[215px] h-[20px] ml-[2rem]"></button>
+								<button id="page18" class="mt-[2.7rem] w-[255px] h-[20px] ml-[2rem]"></button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
+			<div id="link-page-8">
+				<div  id="link-page-8-container" class="flex px-10 py-2 justify-between w-full absolute max-w-[1240px] bottom-[5rem]">
+					<a target="_blank" href="https://m.signalvnoise.com/what-the-best-leaders-do/" class="ml-auto mr-[160px] w-[305px] h-[20px]"></a>
+				</div>	
+			</div>
+
+			<div id="link-page-9">
+				<div  id="link-page-9-container" class="w-full h-[58px] absolute max-w-[1240px] bottom-[4.3rem]">
+					<div class="w-full flex">
+						<a target="_blank" href="https://singteloptus.sharepoint.com/:b:/r/Article%20Documents/Powered%20x%20Optus%20FY23%20Leader%20resources/PxO_LeaderResource_Episode2UCC_AprilFY23.pdf?csf=1&web=1&e=f4tAJU" class="ml-auto mt-[3px] mr-[160px] w-[185px] h-[20px]"></a>
+					</div>
+					<div class="w-full flex">
+						<a target="_blank" href="https://singteloptus.sharepoint.com/:b:/r/Article%20Documents/Powered%20x%20Optus%20FY23%20Leader%20resources/PxO_LeaderResource_Episode3_AprilFY23.pdf?csf=1&web=1&e=rLoGhf" class="ml-auto mr-[235px] w-[112px] h-[20px]"></a>
+					</div>
+					<div class="w-full flex">
+						<a target="_blank" href="https://singteloptus.sharepoint.com/:b:/r/Article%20Documents/Powered%20x%20Optus%20FY23%20Leader%20resources/PxO_LeaderResource_Episode4-AprilFY23.pdf?csf=1&web=1&e=XncvvJ" class="ml-auto mr-[255px] w-[93px] h-[20px]"></a>
+					</div>
+				</div>	
+			</div>
+
+			<div id="link-page-10">
+				<div  id="link-page-10-container" class="flex px-10 py-2 justify-between w-full absolute max-w-[1240px] bottom-[4.6rem]">
+					<a target="_blank" href="https://www.atlassian.com/team-playbook/plays/prioritization-matrix" class="ml-auto mr-[65px] w-[403px] h-[14px]"></a>
+				</div>	
+			</div>
+
+			<div id="link-page-11">
+				<div  id="link-page-11-container" class="flex px-10 py-2 justify-between w-full absolute max-w-[1240px] bottom-[7.3rem]">
+					<a target="_blank" href="https://www.atlassian.com/team-playbook/plays/prioritization-matrix" class="ml-auto mr-[170px] w-[403px] h-[14px]"></a>
+				</div>	
+			</div>
+
+			<div id="link-page-15">
+				<div  id="link-page-15-container" class="flex px-10 py-2 justify-between w-full absolute max-w-[1240px] bottom-[4.8rem]">
+					<a target="_blank" href="https://singteloptus.sharepoint.com/sites/community_waysofworking/SitePages/A2E-Essentials.aspx#lesson-12-structuring-communication" class="ml-auto mr-[92px] w-[403px] h-[25px]"></a>
+				</div>	
+			</div>
+
+			<div id="link-page-18">
+				<div  id="link-page-18-container" class="px-10 py-2 justify-between w-full absolute max-w-[1240px] bottom-[6.6rem]">
+					<div class="grid grid-cols-2">
+						<div class="flex-col mt-[114px]">
+							<div class="w-full flex">
+								<a target="_blank" href="https://www.linkedin.com/business/learning/blog/productivity-tips/5-rules-that-ll-make-your-meetings-more-effective" class="ml-auto mr-[130px] w-[410px] h-[14px]"></a>
+							</div>
+							<div class="w-full flex">
+								<a target="_blank" href="https://www.youtube.com/watch?v=F6Qo8IDsVNg" class="ml-auto mr-[40px] w-[500px] h-[14px]"></a>
+							</div>
+							<div class="w-full flex">
+								<a target="_blank" href="https://www.forbes.com/sites/forbesleadershipforum/2014/02/05/seven-steps-to-running-the-most-effective-meeting-possible/?sh=78b8c45a7a61" class="ml-auto mt-[2px] mr-[40px] w-[500px] h-[14px]"></a>
+							</div>
+						</div>
+						<div class="flex-col mt-[114px]">
+							<div class="w-full flex">
+								<a target="_blank" href="https://singteloptus.sharepoint.com/sites/app_leadingatoptusportal/Pages/Meeting-Management.aspx" class="ml-auto mr-[50px] w-[230px] h-[14px] mt-[15px]"></a>
+							</div>
+							<div class="w-full flex">
+								<a target="_blank" href="https://singteloptus.sharepoint.com/sites/app_leadingatoptusportal/Pages/Meeting-Management.aspx" class="ml-auto mr-[145px] w-[430px] h-[14px]"></a>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+
 			<div id="magazine">
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956035424534651/01_-_Cover.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909045121388675/01_-_Cover_1.png');">
 				</div>
 	
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956034711507155/02_-_Intro.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909045498871890/02_-_Intro_1.png');">
+				</div>
+
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1014070238721093642/03_-_How_to_use_this_Guide__-_Page_1.png');">
 				</div>
 	
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956034170433536/03_-_Clear_Cover.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909045826043934/03_-_Clear_Cover_1.png');">
 				</div>
 	
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956033579028610/04_-_Clear_Index.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909046169968722/04_-_Clear_Index_1.png');">
 				</div>
 	
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956033197359205/05_-_OKR__KPI_4.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909046564237353/05_-_Pause_Principle__-_1.png');">
 				</div>
 	
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956032840831026/06_-_Matrix_-_1.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1014070240247808050/07_-_The_5_Qs_.png');">
 				</div>
 	
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956032350101654/06_-_Matrix_-_2.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909049588318301/07_-_5_More_Qs_.png');">
 				</div>
 	
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956031968415885/06_-_Matrix_-_3.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909050083250256/08_-_Strategic_Alignment___.png');">
 				</div>
 
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956031557369906/07_-_Quarterly_Planning_.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1014070239861936169/10_-_Matrix_-_Page_1.png');">
 				</div>
 
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956031129567283/07_-_Quarterly_Planning__1.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1014070239522213928/10_-_Matrix_-_Page_2_1.png');">
 				</div>
 
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956147928338522/07_-_RACI_Matrix__-_1.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909050951487578/11_-_Quarterly_Planning_.png');">
 				</div>
 
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956144677765271/07_-_RACI_Matrix_-_2_.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909150595559564/12_-_RACI_Matrix__-_1.png');">
 				</div>
 
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956144207986718/07_-_RACI_Matrix_-_2__1.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1014070239106973786/13_-_Active_Listening_-_1_1.png');">
 				</div>
 
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956143662739497/08_-_Active_Listening_-_1.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909151300194344/14_-_Pyramid_Principle_.png');">
 				</div>
 
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956143197180057/08_-_Active_Listening_-_2.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909152264880148/15-_Storytelling_-_Page_1.png');">
 				</div>
 
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956142815481956/09_-_Pyramid_Principle_.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013972833405251624/15_-_Storytelling_-_Page_2.png');">
 				</div>
 
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956142463176864/10_-_Storytelling_-_Page_1.png');">
-				</div>
-
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956142102450206/10_-_Storytelling_-_Page_2.png');">
-				</div>
-
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956141590761472/11_-_Pause_Principle__-_1.png');">
-				</div>
-
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956224977707138/11_-_Active_Listening_-_3.png');">
-				</div>
-
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956224612810853/12_-_The_5_Qs_.png');">
-				</div>
-
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956224147234826/13_-_5_More_Qs_.png');">
-				</div>
-
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956223778127892/14_-_PVS_Alignment__.png');">
-				</div>
-				
-				<!-- 23 -->
-				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010956223388074085/15_-_Effective_Meetings___.png');">
+				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1013909152709492907/16_-_Effective_Meetings___.png');">
 				</div>
 
 				<div style="background-image:url('https://cdn.discordapp.com/attachments/1007134013221240843/1010662715494240407/03_-_Connected_Cover.png');">
