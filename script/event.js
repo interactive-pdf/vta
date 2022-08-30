@@ -194,6 +194,13 @@ $(document).ready(function() {
         removeNextPrev()
     });
 
+    $('#start-clear').css('cursor','pointer');
+    $(document).on('tap', '#start-clear',  function(event) {
+        event.preventDefault();
+        $('#magazine').turn("page", 2)
+        removeNextPrev()
+    });
+
     $("#clear-tab").on("click", function () {
         $('#magazine').turn("page", 2)
         removeNextPrev()
