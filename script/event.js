@@ -182,6 +182,7 @@ $(document).ready(function() {
         removeNextPrev()
     });
 
+    $("#start-clear").css({"cursor":"pointer"});
     $("#start-clear").on("click touchstart", function () {
         $('#magazine').turn("page", 2)
         removeNextPrev()
