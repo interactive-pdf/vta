@@ -88,7 +88,7 @@ $(document).ready(function() {
     });
 
     $("#clear-icon").on("click", function () {
-        $('#magazine').turn("page", 4)
+        $('#magazine').turn("page", 5)
         removeNextPrev()
     })
 
