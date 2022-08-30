@@ -100,10 +100,17 @@ $(document).ready(function() {
         window.location.href = "mailto:Steve.Reynolds@optus.com.au";
     })
 
-    $("#next").on("click", function (e) {
+    $('#next').css('cursor','pointer');
+    $(document).on('click', '#next',  function(event) {
+        event.preventDefault();
         $('#magazine').turn('next')
         removeNextPrev()
-    })
+    });
+
+    // $("#next").on("click", function (e) {
+    //     $('#magazine').turn('next')
+    //     removeNextPrev()
+    // })
 
     $("#previous").on("click", function () {
         const page = $('#magazine').turn('page')
@@ -175,10 +182,17 @@ $(document).ready(function() {
         removeNextPrev()
     });
 
-    $("#start-clear").on("click", function () {
+    // $("#start-clear").on("click", function () {
+    //     $('#magazine').turn("page", 2)
+    //     removeNextPrev()
+    // })
+
+    $('#start-clear').css('cursor','pointer');
+    $(document).on('click', '#start-clear',  function(event) {
+        event.preventDefault();
         $('#magazine').turn("page", 2)
         removeNextPrev()
-    })
+    });
 
     $("#clear-tab").on("click", function () {
         $('#magazine').turn("page", 2)
