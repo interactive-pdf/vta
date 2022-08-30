@@ -21,7 +21,8 @@ $(document).ready(function() {
                     var audio = new Audio('assets/sound1.mp3');
                     audio.play();
                     if (page === 1) {
-                        $("#magazine").css({"z-index":0});
+                        $("#magazine").css({"z-index":20});
+                        $("#start-clear").css({"z-index":50, display: 'block'})
                         $("#navigate-cover").css({"z-index": 30})
                         $("#index-clear").css({"z-index": 0})
                         clearLinkReference()
@@ -183,7 +184,8 @@ $(document).ready(function() {
 
     $("#start-clear").on("click", function () {
         $('#magazine').turn("page", 2)
-        // removeNextPrev()
+        $("#start-clear").css({"z-index":0, display: 'none'})
+        removeNextPrev()
     })
 
     $("#clear-tab").on("click", function () {
@@ -231,10 +233,8 @@ function clearLinkReference() {
 function removeNextPrev() {
     const page = $('#magazine').turn('view')
     if (page[0] === 0 || page[0] === 19 || page[0] === 20 || page[0] === 21) {
-        // $("#next").css({"display":"none"})
-        // $("#previous").css({"display":"none"})
-        $("#next").css({"display":"block"})
-        $("#previous").css({"display":"block"})
+        $("#next").css({"display":"none"})
+        $("#previous").css({"display":"none"})
         $("#magazine").css({"z-index":20});
         $("#navigate-cover").css({"z-index": 30})
         $("#navigate-to-home").css({"z-index":30})
@@ -243,6 +243,7 @@ function removeNextPrev() {
         $("#previous").css({"display":"block"})
         $("#navigate-to-home").css({"z-index":0})
     } else {
+        $("#start-clear").css({"z-index":0})
         $("#next").css({"display":"block"})
         $("#previous").css({"display":"block"})
         $("#navigate-to-home").css({"z-index":0})
