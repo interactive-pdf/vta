@@ -183,10 +183,16 @@ $(document).ready(function() {
     });
 
     $("#start-clear").css({"cursor":"pointer"});
-    $("#start-clear").on("click touchstart", function () {
+    // $("#start-clear").on("click touchstart", function () {
+    //     $('#magazine').turn("page", 2)
+    //     removeNextPrev()
+    // })
+
+    $(document).on('click touchstart', '#start-clear', function() { 
+        alert('asdasd')
         $('#magazine').turn("page", 2)
         removeNextPrev()
-    })
+    }); 
 
     // $('#start-clear').css('cursor','pointer');
     // $(document).on('click touchstart', '#start-clear',  function(event) {
