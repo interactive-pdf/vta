@@ -22,9 +22,9 @@ $(document).ready(function() {
                     audio.play();
                     console.log(page);
                     if (page === 1) {
-                        $("#magazine").css({"z-index":20});
-                        $("#navigate-cover").css({"z-index": 30})
-                        $("#index-clear").css({"z-index": 0})
+                        // $("#magazine").css({"z-index":20});
+                        // $("#navigate-cover").css({"z-index": 30})
+                        // $("#index-clear").css({"z-index": 0})
                         clearLinkReference()
                     } else if (page === 5) {
                         $("#index-clear").css({"z-index": 30})
@@ -189,7 +189,6 @@ $(document).ready(function() {
     // })
 
     $(document).on('click touchstart', '#start-clear', function() { 
-        alert('asdasd')
         $('#magazine').turn("page", 2)
         removeNextPrev()
     }); 
