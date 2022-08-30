@@ -23,13 +23,16 @@ $(document).ready(function() {
                     if (page === 1) {
                         $("#magazine").css({"z-index":20});
                         $("#start-clear").css({"z-index":50, display: 'block'})
+                        $("#button-navigasi").css({"z-index":50, display: 'none'})
                         $("#navigate-cover").css({"z-index": 30})
                         $("#index-clear").css({"z-index": 0})
                         clearLinkReference()
                     } else if (page === 5) {
+                        $("#button-navigasi").css({"z-index":50, display: 'flex'})
                         $("#index-clear").css({"z-index": 30})
                        clearLinkReference()
                     } else if (page === 8) {
+                        $("#button-navigasi").css({"z-index":50, display: 'flex'})
                         clearLinkReference()
                         $("#index-clear").css({"z-index": 0})
                         $("#magazine").css({"z-index":0});
@@ -37,6 +40,7 @@ $(document).ready(function() {
                         $("#link-page-8").css({"z-index":30})
                         $("#link-page-8-container").css({"z-index":30})
                     } else if (page === 9) {
+                        $("#button-navigasi").css({"z-index":50, display: 'flex'})
                         clearLinkReference()
                         $("#index-clear").css({"z-index": 0})
                         $("#magazine").css({"z-index":0});
@@ -44,6 +48,7 @@ $(document).ready(function() {
                         $("#link-page-9").css({"z-index":30})
                         $("#link-page-9-container").css({"z-index":30})
                     } else if (page === 10) {
+                        $("#button-navigasi").css({"z-index":50, display: 'flex'})
                         clearLinkReference()
                         $("#index-clear").css({"z-index": 0})
                         $("#magazine").css({"z-index":0});
@@ -51,6 +56,7 @@ $(document).ready(function() {
                         $("#link-page-10").css({"z-index":30})
                         $("#link-page-10-container").css({"z-index":30})
                     } else if (page === 11) {
+                        $("#button-navigasi").css({"z-index":50, display: 'flex'})
                         clearLinkReference()
                         $("#index-clear").css({"z-index": 0})
                         $("#magazine").css({"z-index":0});
@@ -58,6 +64,7 @@ $(document).ready(function() {
                         $("#link-page-11").css({"z-index":30})
                         $("#link-page-11-container").css({"z-index":30})
                     } else if (page === 15) {
+                        $("#button-navigasi").css({"z-index":50, display: 'flex'})
                         clearLinkReference()
                         $("#index-clear").css({"z-index": 0})
                         $("#magazine").css({"z-index":0});
@@ -65,6 +72,7 @@ $(document).ready(function() {
                         $("#link-page-15").css({"z-index":30})
                         $("#link-page-15-container").css({"z-index":30})
                     } else if (page === 18) {
+                        $("#button-navigasi").css({"z-index":50, display: 'flex'})
                         clearLinkReference()
                         $("#index-clear").css({"z-index": 0})
                         $("#magazine").css({"z-index":0});
@@ -72,6 +80,7 @@ $(document).ready(function() {
                         $("#link-page-18").css({"z-index":30})
                         $("#link-page-18-container").css({"z-index":30})
                     } else {
+                        $("#button-navigasi").css({"z-index":50, display: 'flex'})
                         $("#index-clear").css({"z-index": 0})
                         $("#magazine").css({"z-index":0});
                         $("#navigate-cover").css({"z-index": 0})
@@ -190,21 +199,25 @@ $(document).ready(function() {
 
     $("#clear-tab").on("click", function () {
         $('#magazine').turn("page", 2)
+        $("#start-clear").css({"z-index":50, display: 'none'})
         removeNextPrev()
     })
 
     $("#connected-tab").on("click", function () {
         $('#magazine').turn("page", 19)
+        $("#start-clear").css({"z-index":50, display: 'none'})
         removeNextPrev()
     })
 
     $("#capable-tab").on("click", function () {
         $('#magazine').turn("page", 20)
+        $("#start-clear").css({"z-index":50, display: 'none'})
         removeNextPrev()
     })
 
     $("#courageous-tab").on("click", function () {
         $('#magazine').turn("page", 21)
+        $("#start-clear").css({"z-index":50, display: 'none'})
         removeNextPrev()
     })
 
