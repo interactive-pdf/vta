@@ -194,8 +194,7 @@ $(document).ready(function() {
         removeNextPrev()
     });
 
-    $('#start-clear').css('cursor','pointer');
-    $(document).on('tap', '#start-clear',  function(event) {
+    $(document).on('touchstart', '#start-clear',  function(event) {
         event.preventDefault();
         $('#magazine').turn("page", 2)
         removeNextPrev()
