@@ -21,7 +21,7 @@ $(document).ready(function() {
                     var audio = new Audio('assets/sound1.mp3');
                     audio.play();
                     if (page === 1) {
-                        $("#magazine").css({"z-index":20});
+                        $("#magazine").css({"z-index":0});
                         $("#navigate-cover").css({"z-index": 30})
                         $("#index-clear").css({"z-index": 0})
                         clearLinkReference()
@@ -231,8 +231,10 @@ function clearLinkReference() {
 function removeNextPrev() {
     const page = $('#magazine').turn('view')
     if (page[0] === 0 || page[0] === 19 || page[0] === 20 || page[0] === 21) {
-        $("#next").css({"display":"none"})
-        $("#previous").css({"display":"none"})
+        // $("#next").css({"display":"none"})
+        // $("#previous").css({"display":"none"})
+        $("#next").css({"display":"block"})
+        $("#previous").css({"display":"block"})
         $("#magazine").css({"z-index":20});
         $("#navigate-cover").css({"z-index": 30})
         $("#navigate-to-home").css({"z-index":30})
