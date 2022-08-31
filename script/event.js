@@ -23,7 +23,7 @@ $(document).ready(function() {
                     if (page === 1) {
                         $("#magazine").css({"z-index":20});
                         $("#start-clear").css({"z-index":50, display: 'block'})
-                        $("#button-navigasi-cover").css({"z-index":50, display: 'block'})
+                        $("#button-navigasi-cover").css({"z-index":50, display: 'flex'})
                         $("#button-navigasi").css({"z-index":50, display: 'none'})
                         $("#navigate-cover").css({"z-index": 30})
                         $("#index-clear").css({"z-index": 0, display: 'none'})
