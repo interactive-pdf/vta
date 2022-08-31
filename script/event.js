@@ -26,11 +26,11 @@ $(document).ready(function() {
                         $("#button-navigasi-cover").css({"z-index":50, display: 'flex'})
                         $("#button-navigasi").css({"z-index":50, display: 'none'})
                         $("#navigate-cover").css({"z-index": 30})
-                        $("#index-clear").css({"z-index": 0, display: 'none'})
+                        $("#index-clear").css({"z-index": 50, display: 'none'})
                         clearLinkReference()
                     } else if (page === 5) {
                         $("#button-navigasi").css({"z-index":50, display: 'flex'})
-                        $("#index-clear").css({"z-index": 30, display: 'block'})
+                        $("#index-clear").css({"z-index": 30, display: 'flex'})
                        clearLinkReference()
                     } else if (page === 8) {
                         $("#button-navigasi").css({"z-index":50, display: 'flex'})

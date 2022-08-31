@@ -19,6 +19,17 @@ body{
     background-color:rgb(255, 255, 255);
     background-size:100% 100%;
 }
+
+.btn-group button {
+    background-color: #04AA6D; /* Green background */
+    height: 100%;
+    width: 100px;
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    display: block; /* Make the buttons appear below each other */
+  }
+
 .content{
     zoom: 100%;
 }
